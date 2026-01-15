@@ -6,7 +6,7 @@ public class AfterBeforeAnnotation {
 
 	@BeforeSuite
 	public void beforeSuite() {
-		System.out.println("Before Suite1");
+		System.out.println("Before Suite");
 	}
 
 	@BeforeClass
