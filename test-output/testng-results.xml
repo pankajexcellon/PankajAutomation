@@ -2,20 +2,16 @@
 <testng-results ignored="0" total="1" passed="0" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-01-15T15:14:07 IST" name="Default suite" finished-at="2026-01-15T15:14:11 IST" duration-ms="3345">
+  <suite started-at="2026-01-15T17:29:07 IST" name="Default suite" finished-at="2026-01-15T17:29:14 IST" duration-ms="7287">
     <groups>
     </groups>
-    <test started-at="2026-01-15T15:14:07 IST" name="Default test" finished-at="2026-01-15T15:14:11 IST" duration-ms="3345">
-      <class name="TNG.ExtentTestNGReports">
-        <test-method is-config="true" signature="setupReport()[pri:0, instance:TNG.ExtentTestNGReports@279fedbd]" started-at="2026-01-15T15:14:07 IST" name="setupReport" finished-at="2026-01-15T15:14:07 IST" duration-ms="177" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setupReport -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:TNG.ExtentTestNGReports@279fedbd]" started-at="2026-01-15T15:14:07 IST" name="setup" finished-at="2026-01-15T15:14:09 IST" duration-ms="1516" status="PASS">
+    <test started-at="2026-01-15T17:29:07 IST" name="Default test" finished-at="2026-01-15T17:29:14 IST" duration-ms="7287">
+      <class name="TNG.ScreenShotOnFailure">
+        <test-method is-config="true" signature="setup()[pri:0, instance:TNG.ScreenShotOnFailure@327514f]" started-at="2026-01-15T17:29:07 IST" name="setup" finished-at="2026-01-15T17:29:13 IST" duration-ms="6659" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="googleTitleTest()[pri:0, instance:TNG.ExtentTestNGReports@279fedbd]" started-at="2026-01-15T15:14:09 IST" name="googleTitleTest" finished-at="2026-01-15T15:14:10 IST" duration-ms="1497" status="FAIL">
+        <test-method signature="failingTest()[pri:0, instance:TNG.ScreenShotOnFailure@327514f]" started-at="2026-01-15T17:29:13 IST" name="failingTest" finished-at="2026-01-15T17:29:13 IST" duration-ms="46" status="FAIL">
           <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
               <![CDATA[no such element: Unable to locate element: {"method":"css selector","selector":"#nonExistingElement"}
@@ -24,9 +20,9 @@ For documentation on this error, please visit: https://www.selenium.dev/document
 Build info: version: '4.25.0', revision: '8a8aea2337'
 System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.7'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [2398aa6e595aa8805a916be946e9f68b, findElement {value=nonExistingElement, using=id}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 143.0.7499.170, chrome: {chromedriverVersion: 143.0.7499.192 (be2c1f4fd45..., userDataDir: C:\Users\pankajb\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52396}, goog:processID: 20788, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52396/devtoo..., se:cdpVersion: 143.0.7499.170, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 2398aa6e595aa8805a916be946e9f68b]]>
+Command: [c088045cad297a36dd314d0787878900, findElement {value=nonExistingElement, using=id}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 143.0.7499.170, chrome: {chromedriverVersion: 143.0.7499.192 (be2c1f4fd45..., userDataDir: C:\Users\pankajb\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55788}, goog:processID: 19336, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55788/devtoo..., se:cdpVersion: 143.0.7499.170, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: c088045cad297a36dd314d0787878900]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"#nonExistingElement"}
@@ -35,9 +31,9 @@ For documentation on this error, please visit: https://www.selenium.dev/document
 Build info: version: '4.25.0', revision: '8a8aea2337'
 System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.7'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [2398aa6e595aa8805a916be946e9f68b, findElement {value=nonExistingElement, using=id}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 143.0.7499.170, chrome: {chromedriverVersion: 143.0.7499.192 (be2c1f4fd45..., userDataDir: C:\Users\pankajb\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52396}, goog:processID: 20788, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52396/devtoo..., se:cdpVersion: 143.0.7499.170, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 2398aa6e595aa8805a916be946e9f68b
+Command: [c088045cad297a36dd314d0787878900, findElement {value=nonExistingElement, using=id}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 143.0.7499.170, chrome: {chromedriverVersion: 143.0.7499.192 (be2c1f4fd45..., userDataDir: C:\Users\pankajb\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55788}, goog:processID: 19336, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55788/devtoo..., se:cdpVersion: 143.0.7499.170, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: c088045cad297a36dd314d0787878900
 at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
 at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
 at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
@@ -52,7 +48,7 @@ at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(Elemen
 at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:66)
 at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
 at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)
-at TNG.ExtentTestNGReports.googleTitleTest(ExtentTestNGReports.java:39)
+at TNG.ScreenShotOnFailure.failingTest(ScreenShotOnFailure.java:28)
 at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
 at java.base/java.lang.reflect.Method.invoke(Method.java:580)
 at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
@@ -84,23 +80,19 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           </exception> <!-- org.openqa.selenium.NoSuchElementException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- googleTitleTest -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:TNG.ExtentTestNGReports@279fedbd]" started-at="2026-01-15T15:14:10 IST" name="tearDown" finished-at="2026-01-15T15:14:11 IST" duration-ms="306" status="PASS">
+        </test-method> <!-- failingTest -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:TNG.ScreenShotOnFailure@327514f]" started-at="2026-01-15T17:29:13 IST" name="tearDown" finished-at="2026-01-15T17:29:14 IST" duration-ms="520" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=googleTitleTest status=FAILURE method=ExtentTestNGReports.googleTitleTest()[pri:0, instance:TNG.ExtentTestNGReports@279fedbd] output={null}]]]>
+                <![CDATA[[TestResult name=failingTest status=FAILURE method=ScreenShotOnFailure.failingTest()[pri:0, instance:TNG.ScreenShotOnFailure@327514f] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="flush()[pri:0, instance:TNG.ExtentTestNGReports@279fedbd]" started-at="2026-01-15T15:14:11 IST" name="flush" finished-at="2026-01-15T15:14:11 IST" duration-ms="245" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- flush -->
-      </class> <!-- TNG.ExtentTestNGReports -->
+      </class> <!-- TNG.ScreenShotOnFailure -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

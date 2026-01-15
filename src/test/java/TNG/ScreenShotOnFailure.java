@@ -1,6 +1,3 @@
-
-
-
 package TNG;
  
 import org.apache.commons.io.FileUtils;
