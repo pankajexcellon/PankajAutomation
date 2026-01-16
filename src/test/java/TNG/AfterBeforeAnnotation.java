@@ -16,7 +16,7 @@ public class AfterBeforeAnnotation {
 
 	@BeforeMethod
 	public void beforeMethod() {
-		System.out.println("Before Method");
+		System.out.println("Before Method asdcas");
 	}
 
 	@Test
